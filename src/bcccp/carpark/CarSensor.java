@@ -60,13 +60,16 @@ public class CarSensor extends JFrame implements ICarSensor {
 			public void actionPerformed(ActionEvent e) {
 				carDetected = !carDetected;
 				if (carDetected) {
+                                    //when a car is detected 
 					detectorButton.setBackground(Color.GREEN);
 					detectorButton.setText("Car Detected");
 				}
 				else {
+                                    //when car is not detected
 					detectorButton.setBackground(Color.RED);
 					detectorButton.setText("No Car Detected");
 				}
+                                //adds all thedetectors ID the status of wheather a car was detected or not
 				for (ICarSensorResponder responder : responders ) {
 					responder.carEventDetected(detectorId, carDetected);
 				}
@@ -89,11 +92,13 @@ public class CarSensor extends JFrame implements ICarSensor {
 		}
 	}
 
+        //returns the ID of the detector
 	@Override
 	public String getId() {
 		return detectorId;
 	}
 
+        //returns true when car is detected and false when its not
 	@Override
 	public boolean carIsDetected() {
 		return carDetected;
