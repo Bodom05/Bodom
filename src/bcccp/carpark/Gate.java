@@ -67,6 +67,7 @@ public class Gate extends JFrame implements IGate {
 	
 	@Override
 	public void raise() {
+            //this method sets the color to green and opens the gate for car to pass 
 		gateStatusTextField.setBackground(Color.GREEN);
 		gateStatusTextField.setText("Gate Up");
 		raised = true;		
@@ -76,6 +77,7 @@ public class Gate extends JFrame implements IGate {
 	
 	@Override
 	public void lower() {
+                //this method sets the color to red and closes the gate so car cannot pass 
 		gateStatusTextField.setBackground(Color.RED);
 		gateStatusTextField.setText("Gate Down");
 		raised = false;		
@@ -85,6 +87,7 @@ public class Gate extends JFrame implements IGate {
 	
 	@Override
 	public boolean isRaised() {
+            //returns true if gate is up and false when gate is down
 		return raised;
 	}
 
