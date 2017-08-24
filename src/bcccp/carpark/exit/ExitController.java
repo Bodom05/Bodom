@@ -28,6 +28,12 @@ public class ExitController
 			ICarSensor os, 
 			IExitUI ui) {
 		//TODO Implement constructor
+            this.carpark = carpark;
+            this.exitGate = exitGate;
+            this.insideSensor = is;
+            this.outsideSensor = os;
+            this.ui = ui;
+            
 	}
 
 
