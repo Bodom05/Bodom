@@ -57,7 +57,7 @@ public class ExitController
 	@Override
 	public void carEventDetected(String detectorId, boolean detected) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The car dectector with Id +"+detectorId +" has detected the car : "+ detected);
 	}
 
 	
