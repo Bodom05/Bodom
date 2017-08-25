@@ -25,6 +25,7 @@ public class PaystationController
 	@Override
 	public void ticketInserted(String barcode) {
 		// TODO Auto-generated method stub
+            System.out.println("The ticked was inserted with barcode : "+ barcode);
 		
 	}
 
