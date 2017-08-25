@@ -41,7 +41,7 @@ public class ExitController
 	@Override
 	public void ticketInserted(String ticketStr) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The ticket was inserted with the number: "+ticketStr);
 	}
 
 
