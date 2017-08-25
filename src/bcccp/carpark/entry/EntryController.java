@@ -41,7 +41,7 @@ public class EntryController
 	@Override
 	public void buttonPushed() {
 		// TODO Auto-generated method stub
-		
+		    System.out.println("The button has been pushed for the car to pass.");
 	}
 
 
