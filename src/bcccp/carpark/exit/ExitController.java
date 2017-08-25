@@ -49,7 +49,7 @@ public class ExitController
 	@Override
 	public void ticketTaken() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The ticket has been taken");
 	}
 
 
