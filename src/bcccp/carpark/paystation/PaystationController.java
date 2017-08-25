@@ -25,6 +25,7 @@ public class PaystationController
 	@Override
 	public void ticketInserted(String barcode) {
 		// TODO Auto-generated method stub
+            System.out.println("The ticked was inserted with barcode : "+ barcode);
 		
 	}
 
@@ -33,7 +34,7 @@ public class PaystationController
 	@Override
 	public void ticketPaid() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The price for the ticked is paid.");
 	}
 
 
@@ -41,7 +42,7 @@ public class PaystationController
 	@Override
 	public void ticketTaken() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The ticked has been taken.");
 	}
 
 	
