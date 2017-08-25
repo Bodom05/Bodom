@@ -34,7 +34,7 @@ public class PaystationController
 	@Override
 	public void ticketPaid() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The prce for the ticked is paid.");
 	}
 
 
