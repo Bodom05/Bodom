@@ -77,7 +77,7 @@ public class EntryController
 	@Override
 	public void carEventDetected(String detectorId, boolean detected) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The detector with detector ID "+detectorId+" has detected the car: "+ detected);
 	}
 
 	
