@@ -41,7 +41,7 @@ public class ExitController
 	@Override
 	public void ticketInserted(String ticketStr) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The ticket was inserted with the number: "+ticketStr);
 	}
 
 
@@ -49,7 +49,7 @@ public class ExitController
 	@Override
 	public void ticketTaken() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The ticket has been taken");
 	}
 
 
@@ -57,7 +57,7 @@ public class ExitController
 	@Override
 	public void carEventDetected(String detectorId, boolean detected) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("The car dectector with Id +"+detectorId +" has detected the car : "+ detected);
 	}
 
 	
