@@ -49,6 +49,8 @@ public class EntryController
 	@Override
 	public void ticketInserted(String barcode) {
 		// TODO Auto-generated method stub
+            System.out.println("The ticket of barcode +"barcode+" has been inserted.");
+            
 		
 	}
 
@@ -57,6 +59,7 @@ public class EntryController
 	@Override
 	public void ticketTaken() {
 		// TODO Auto-generated method stub
+                System.out.println("The ticket has been taken.");
 		
 	}
 
