@@ -38,8 +38,6 @@ public class Carpark implements ICarpark {
         
 	}
 
-
-
 	@Override
 	public void deregister(ICarparkObserver observer) {
 		// TODO Auto-generated method stub
@@ -51,7 +49,8 @@ public class Carpark implements ICarpark {
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+            String name = carparkId;
+		return name;
 	}
 
 
