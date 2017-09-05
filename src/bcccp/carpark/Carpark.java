@@ -41,15 +41,14 @@ public class Carpark implements ICarpark {
 	@Override
 	public void register(ICarparkObserver observer) {
 		// TODO Auto-generated method stub
+            observers.add(observer);
         
 	}
-
-
 
 	@Override
 	public void deregister(ICarparkObserver observer) {
 		// TODO Auto-generated method stub
-		
+		observers.remove(observer);
 	}
 
 
@@ -57,7 +56,8 @@ public class Carpark implements ICarpark {
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+            String name = carparkId;
+		return name;
 	}
 
 
@@ -65,6 +65,9 @@ public class Carpark implements ICarpark {
 	@Override
 	public boolean isFull() {
 		// TODO Auto-generated method stub
+            if (numberOfCarsParked==capacity) {
+                return true;
+            }
 		return false;
 	}
 
