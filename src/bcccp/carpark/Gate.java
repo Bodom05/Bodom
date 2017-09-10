@@ -88,6 +88,12 @@ public class Gate extends JFrame implements IGate {
 	@Override
 	public boolean isRaised() {
             //returns true if gate is up and false when gate is down
+            if (Color.RED ==gateStatusTextField.getBackground()) {
+                raised = false;
+            }
+            else {
+               raised = true; 
+            }
 		return raised;
 	}
 
