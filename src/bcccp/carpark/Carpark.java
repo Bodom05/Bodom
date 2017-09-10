@@ -70,7 +70,7 @@ public class Carpark implements ICarpark {
 	public IAdhocTicket issueAdhocTicket() {
 		// TODO Auto-generated method stub
             
-		return null;
+		return adhocTicketDAO;
 	}
 
 
