@@ -25,6 +25,7 @@ public class CarSensor extends JFrame implements ICarSensor {
 	/**
 	 * Launch the application.
 	 */
+//this is just a test
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
