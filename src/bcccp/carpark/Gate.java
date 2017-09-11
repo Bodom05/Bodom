@@ -16,7 +16,7 @@ public class Gate extends JFrame implements IGate {
 	private JPanel contentPane;
 	private JTextField gateStatusTextField;
 	private boolean raised;
-
+//second test
 	/**
 	 * Launch the application.
 	 */
