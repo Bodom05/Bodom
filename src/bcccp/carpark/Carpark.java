@@ -53,8 +53,6 @@ public class Carpark implements ICarpark {
 		return name;
 	}
 
-
-
 	@Override
 	public boolean isFull() {
 		// TODO Auto-generated method stub
@@ -69,8 +67,7 @@ public class Carpark implements ICarpark {
 	@Override
 	public IAdhocTicket issueAdhocTicket() {
 		// TODO Auto-generated method stub
-            
-		return adhocTicketDAO;
+            		return adhocTicketDAO;
 	}
 
 
